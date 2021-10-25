@@ -1,0 +1,37 @@
+[Exception]: возникла ошибка:
+[Exception]: текст: {"error":{"error_code":15,"error_msg":"Access denied: no access to call this method","request_params":[{"key":"method","value":"messages.send"},{"key":"oauth","value":"1"},{"key":"peer_id","value":""},{"key":"keyboard","value":"{\"one_time\":false,\"buttons\":[[{\"action\":{\"type\":\"text\",\"payload\":\"{\\\"command\\\":\\\"info\\\"}\",\"label\":\"\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f\"},\"color\":\"primary\"}]],\"inline\":false}"},{"key":"v","value":"5.101"},{"key":"random_id","value":"1594764740"}]}}
+[Exception]: код ошибки: 15
+[Exception]: файл: /var/www/html/vendor/digitalstars/simplevk/src/vk_api.php:230
+[Exception]: путь ошибки: #0 /var/www/html/vendor/digitalstars/simplevk/src/vk_api.php(428): DigitalStar\vk_api\vk_api->request()
+#1 /var/www/html/public/index.php(20): DigitalStar\vk_api\vk_api->sendButton()
+#2 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: Вк не прислал callback, возможно вы пытаетесь запустить скрипт с локалки
+[Exception]: код ошибки: 0
+[Exception]: файл: /var/www/html/vendor/digitalstars/simplevk/src/Execute.php:65
+[Exception]: путь ошибки: #0 /var/www/html/public/index.php(17): DigitalStar\vk_api\Execute->reply()
+#1 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: Вк не прислал callback, возможно вы пытаетесь запустить скрипт с локалки
+[Exception]: код ошибки: 0
+[Exception]: файл: /var/www/html/vendor/digitalstars/simplevk/src/Execute.php:65
+[Exception]: путь ошибки: #0 /var/www/html/public/index.php(17): DigitalStar\vk_api\Execute->reply()
+#1 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: Вк не прислал callback, возможно вы пытаетесь запустить скрипт с локалки
+[Exception]: код ошибки: 0
+[Exception]: файл: /var/www/html/vendor/digitalstars/simplevk/src/Execute.php:65
+[Exception]: путь ошибки: #0 /var/www/html/public/index.php(17): DigitalStar\vk_api\Execute->reply()
+#1 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: Вк не прислал callback, возможно вы пытаетесь запустить скрипт с локалки
+[Exception]: код ошибки: 0
+[Exception]: файл: /var/www/html/vendor/digitalstars/simplevk/src/Execute.php:65
+[Exception]: путь ошибки: #0 /var/www/html/public/index.php(17): DigitalStar\vk_api\Execute->reply()
+#1 {main}
+[Exception]: возникла ошибка:
+[Exception]: текст: Вк не прислал callback, возможно вы пытаетесь запустить скрипт с локалки
+[Exception]: код ошибки: 0
+[Exception]: файл: /var/www/html/vendor/digitalstars/simplevk/src/Execute.php:65
+[Exception]: путь ошибки: #0 /var/www/html/public/index.php(17): DigitalStar\vk_api\Execute->reply()
+#1 {main}

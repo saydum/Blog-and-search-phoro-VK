@@ -1,0 +1,30 @@
+body {
+
+}
+
+input[type=range] {
+	margin: 10px 0;
+	width: 100%;
+}
+
+
+.divInRange {
+	display: inline-block;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.btnButt{
+		padding-left: 30px;
+	padding-right: 30px;
+}
+.divInRange label {
+	margin-bottom: -11px;
+}
+.resaltInRange {
+	display: flex;
+}
+.divMaps {
+	width: 99%;
+	height: 290px
+}
+
